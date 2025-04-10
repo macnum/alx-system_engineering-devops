@@ -116,3 +116,14 @@ $ ls /tmp/my_first_directory/
 betty
 $
 ```
+
+## 8. Bye bye Betty
+Delete the file `betty`.
+
+The file `betty` is in `/tmp/my_first_directory`
+Example:
+```
+$ ./8-firstdelete
+$ ls /tmp/my_first_directory/
+$
+```
