@@ -154,4 +154,18 @@ julien@ubuntu:/tmp$ pwd
 /tmp
 ```
 
+##  11. Lists
+
+Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
+
+```
+
+Repo:
+
+    - GitHub repository: alx-system_engineering-devops
+    - Directory: 0x00-shell_basics
+    - File: 11-lists
+
+```
+
 ## 
