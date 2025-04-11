@@ -254,4 +254,30 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 
 ```
 
+## 17.Tree
+
+Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+
+You are only allowed to use two spaces (and lines) in your script, not more. 
+
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 44 Sep 20 12:09 102-tree
+julien@ubuntu:/tmp/h$ wc -l 102-tree 
+2 102-tree
+julien@ubuntu:/tmp/h$ head -1 102-tree 
+#!/bin/bash
+julien@ubuntu:/tmp/h$ tr -cd ' ' < 102-tree | wc -c # you do not have to understand this yet, but the result should be 2, 1 or 0
+2
+julien@ubuntu:/tmp/h$ ./102-tree 
+julien@ubuntu:/tmp/h$ ls
+102-tree  welcome
+julien@ubuntu:/tmp/h$ ls welcome/
+to
+julien@ubuntu:/tmp/h$ ls -l welcome/to
+total 4
+drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
+julien@ubuntu:/tmp/h$ 
+```
 ## 
