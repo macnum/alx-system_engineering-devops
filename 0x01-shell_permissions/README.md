@@ -92,4 +92,31 @@ Write a script that creates an empty file called hello.
    - Directory: 0x01-shell_permissions
    - File: 4-empty
 
+###  5. Execute
+```
+Write a script that adds execute permission to the owner of the file hello.
+
+  - The file hello will be in the working directory
+```
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 28 Sep 20 14:26 5-execute
+-rw-rw-r-- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ ./hello
+bash: ./hello: Permission denied
+julien@ubuntu:/tmp/h$ ./5-execute 
+julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 28 Sep 20 14:26 5-execute
+-rwxrw-r-- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+```
+#### Repo:
+
+  - GitHub repository: alx-system_engineering-devops
+  - Directory: 0x01-shell_permissions
+  - File: 5-execute
+
+
 ### 
