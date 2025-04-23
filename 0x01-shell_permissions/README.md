@@ -267,4 +267,33 @@ julien@ubuntu:/tmp/h$
  - Directory: 0x01-shell_permissions
  - File: 11-directories_permissions
 
-###
+### 12. More directories
+```
+Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+```
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 20
+-rwxrwxr-x 1 julien julien   39 Sep 20 14:59 12-directory_permissions
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir0
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
+-rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ ./12-directory_permission s
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien   39 Sep 20 14:59 12-directory_permissions
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir0
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir1
+drwx--x--x 2 julien julien 4096 Sep 20 14:49 dir2
+drwxr-x--x 2 julien julien 4096 Sep 20 14:59 my_dir
+-rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x01-shell_permissions
+ - File: 12-directory_permissions
+
+### 
