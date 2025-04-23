@@ -62,4 +62,24 @@ Repo:
    - File: 2-groups
 
 ### 3. New owner
+```
+Write a script that changes the owner of the file hello to the user betty.
 
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
+-rw-rw-r-- 1 julien julien  0 Sep 20 14:18 hello
+julien@ubuntu:/tmp/h$ sudo ./3-new_owner 
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
+-rw-rw-r-- 1 betty  julien  0 Sep 20 14:18 hello
+julien@ubuntu:/tmp/h$
+```
+#### Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x01-shell_permissions
+   - File: 3-new_owner
+
+### 
