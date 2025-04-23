@@ -399,4 +399,12 @@ julien@ubuntu:/tmp/h$
  - Directory: 0x01-shell_permissions
  - File: 102-if_only
 
-### 
+### 17. Star Wars
+ Write a script that will play the StarWars IV episode in the terminal.
+### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x01-shell_permissions
+ - File: 103-Star_Wars
+
+
