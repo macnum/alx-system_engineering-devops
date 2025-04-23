@@ -46,4 +46,20 @@ Repo:
    - File: 1-who_am_i
 
 
-### 
+### 2. Groups
+```
+Write a script that prints all the groups the current user is part of.
+
+julien@ubuntu:/tmp/h$ ./2-groups
+julien adm cdrom sudo dip plugdev lpadmin sambashare
+julien@ubuntu:/tmp/h$ 
+Note: depending on the user, you will get a different output.
+```
+Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x01-shell_permissions
+   - File: 2-groups
+
+### 3. New owner
+
