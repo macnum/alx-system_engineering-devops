@@ -82,4 +82,14 @@ julien@ubuntu:/tmp/h$
    - Directory: 0x01-shell_permissions
    - File: 3-new_owner
 
+###  4. Empty!
+```
+Write a script that creates an empty file called hello.
+```
+#### Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x01-shell_permissions
+   - File: 4-empty
+
 ### 
