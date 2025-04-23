@@ -34,4 +34,16 @@ Create a script that switches the current user to the user `betty`.
    - File: 0-iam_betty
 
 
+### 1. Who am I
+
+```
+Write a script that prints the effective username of the current user.
+```
+Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x01-shell_permissions
+   - File: 1-who_am_i
+
+
 ### 
