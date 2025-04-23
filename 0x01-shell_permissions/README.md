@@ -348,10 +348,34 @@ drwxr-x--x 2 vincent staff 4096 Sep 20 14:59 my_dir
 -rw-rw-r-- 1 vincent staff   23 Sep 20 14:25 hello
 julien@ubuntu:/tmp/h$ 
 ```
-### Repo:
+#### Repo:
 
  - GitHub repository: alx-system_engineering-devops
  - Directory: 0x01-shell_permissions
  - File: 100-change_owner_and_group
 
-### 
+### 15. Symbolic links
+
+Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+ - The file _hello is in the working directory
+ - The file _hello is a symbolic link
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien   44 Sep 20 15:12 101-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+lrwxrwxrwx 1 julien julien    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ sudo ./101-symbolic_link_permissions 
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien      44 Sep 20 15:12 101-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien      23 Sep 20 14:25 hello
+lrwxrwxrwx 1 vincent  staff    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ 
+```
+#### Repo
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x01-shell_permissions
+ - File: 101-symbolic_link_permissions
+
+###
