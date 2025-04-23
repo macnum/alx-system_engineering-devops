@@ -378,4 +378,25 @@ julien@ubuntu:/tmp/h$
  - Directory: 0x01-shell_permissions
  - File: 101-symbolic_link_permissions
 
-###
+### 16. If only
+Write a script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`.
+ - The file hello will be in the working directory
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 102-if_only 
+-rw-rw-r-- 1 guillaume julien      23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ sudo ./102-if_only 
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien      47 Sep 20 15:18 102-if_only 
+-rw-rw-r-- 1 betty  julien      23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x01-shell_permissions
+ - File: 102-if_only
+
+### 
