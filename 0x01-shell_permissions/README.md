@@ -196,4 +196,17 @@ julien@ubuntu:/tmp/h$
  - File: 8-James_Bond
 
 ### 9. John Doe
+```
+Write a script that sets the mode of the file hello to this:
+`Write a script that sets the mode of the file hello to this:`
+ - The file hello will be in the working directory
+ - You are not allowed to use commas for this script
+```
+#### Repo:
 
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x01-shell_permissions
+ - File: 9-John_Doe
+
+
+### 
