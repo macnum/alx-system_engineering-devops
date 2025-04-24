@@ -187,4 +187,28 @@ Tips: “Thinks of it as a cat, what is at the end of it?”
  - Directory: 0x02-shell_redirections
  - File: 4-lastlines
 
+### 5. I'd prefer the first ones actually
+ Display the first 10 lines of `/etc/passwd`
+
+Example:
+```
+$ ./5-firstlines
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode. At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+$   
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 5-firstlines
+
 ### 
