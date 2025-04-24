@@ -245,4 +245,24 @@ Note: The output will differ, depending on the content of the file `iacta`.
  - File: 6-third_line
 
 
+### 7. It is a good file that cuts iron without making a noise
+Write a shell script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.
+```
+julien@ubuntu:~/shell$ ls && ./7-file && ls -l && cat -e \\*
+0-mac_and_cheese 7-file 7-file~ Makefile
+total 20
+-rwxrw-r-- 1 julien julien 79 Jan 20 06:24 0-mac_and_cheese
+-rwxrw-r-- 1 julien julien 90 Jan 20 06:40 7-file
+-rwxrw-r-- 1 julien julien 69 Jan 20 06:37 7-file~
+-rw-rw-r-- 1 julien julien 14 Jan 20 06:38 Makefile
+-rw-rw-r-- 1 julien julien 17 Jan 20 06:40 '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+Best School$
+julien@ubuntu:~/shell$
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 7-file
+
 ### 
