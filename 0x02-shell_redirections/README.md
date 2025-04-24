@@ -77,4 +77,17 @@ julien@ubuntu:/tmp/h$
  - Directory: 0x02-shell_redirections
  - File: 0-hello_world
 
+###  1. Confused smiley
+Write a script that displays a confused smiley `"(Ôo)'`.
+```
+julien@ubuntu:/tmp/h$ ./1-confused_smiley 
+"(Ôo)'
+julien@ubuntu:/tmp/h$ 
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 1-confused_smiley
+
 ### 
