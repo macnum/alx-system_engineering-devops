@@ -482,5 +482,49 @@ alex@ubuntu:/tmp$
  - Directory: 0x02-shell_redirections
  - File: 12-newest_files
 
-### 
+### 13. Being unique is better than being perfect
+Create a script that takes a list of words as input and prints only words that appear exactly once.
+ - Input format: One line, one word
+ - Output format: One line, one word
+ - Words should be sorted
+```
+julien@ubuntu:/tmp/0x02$ cat list 
+C#
+C
+Javascript
+Perl
+PHP
+PHP
+ASP
+R
+Go
+C#
+C++
+R
+Perl
+Javascript
+Javascript
+Python
+Javascript
+Javascript
+Javascript
+Java
+Java
+Python
+Javascript
+Javascript
+Javascript
+ASP
+julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
+C
+C++
+Go
+julien@ubuntu:/tmp/0x02$ 
+```
+#### Repo:
 
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 13-unique
+
+### 14. It must be in that file
