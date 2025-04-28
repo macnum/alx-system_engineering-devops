@@ -578,4 +578,26 @@ $
  - Directory: 0x02-shell_redirections
  - File: 16-whatsnext
 
-###
+### 17. I hate bins
+Display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”
+```
+$ ./17-hidethisword
+##
+# User Database
+#
+# Note that this file is consulted directly only when the system is running
+# in single-user mode. At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+$
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 17-hidethisword
+
+### 
