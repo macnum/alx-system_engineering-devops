@@ -542,5 +542,18 @@ $
  - Directory: 0x02-shell_redirections
  - File: 14-findthatword
 
-###
+### 15. Count that word
+Display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
+```
+$ ./15-countthatword
+81
+$ 
+```
+#### Repo:
 
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 15-countthatword
+
+
+### 
