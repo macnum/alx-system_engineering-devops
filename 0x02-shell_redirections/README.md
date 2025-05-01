@@ -618,4 +618,17 @@ $
  - Directory: 0x02-shell_redirections
  - File: 18-letteronly
 
+### 19. A to Z
+ Replace all characters `A` and `c` from input to `Z` and `e` respectively.
+```
+julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ 
+Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
+julien@ubuntu:/tmp/0x02$ 
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 19-AZ
+
 ### 
