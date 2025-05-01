@@ -631,4 +631,18 @@ julien@ubuntu:/tmp/0x02$
  - Directory: 0x02-shell_redirections
  - File: 19-AZ
 
+### 20. Without C, you would live in hiago
+Create a script that removes all letters `c` and `C` from input.
+```
+julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago 
+hiago
+julien@ubuntu:/tmp/0x02$ 
+```
+#### Repo:
+
+ - GitHub repository: alx-system_engineering-devops
+ - Directory: 0x02-shell_redirections
+ - File: 20-hiago
+
 ### 
+ 
